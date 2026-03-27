@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Segoe UI", sans-serif;
+
+  /* 🌄 背景圖（換成你的圖） */
+  background: url("dog-bg.png") no-repeat center center/cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* 🫧 半透明卡片 */
+.overlay-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(10px);
+
+  padding: 25px 30px;
+  border-radius: 20px;
+
+  width: 320px;
+  text-align: center;
+
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* 標題 */
+h2 {
+  margin-bottom: 15px;
+}
+
+/* input */
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0 15px;
+
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+/* 按鈕 */
+button {
+  width: 100%;
+  padding: 10px;
+
+  border: none;
+  border-radius: 10px;
+
+  background: #6c8ebf;
+  color: white;
+
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #5a7bb0;
+}
+
+/* 錯誤 */
+.error {
+  color: #d33;
+  margin-top: 10px;
+}
+
+/* 🫧 結果泡泡 */
+.result {
+  margin-top: 20px;
+  padding: 12px;
+
+  background: #f1f3f6;
+  border-radius: 12px;
+
+  font-size: 14px;
+  line-height: 1.6;
+}
